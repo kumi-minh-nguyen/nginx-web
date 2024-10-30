@@ -39,7 +39,7 @@ spec:
         #imagePullPolicy: Always
         env:
         - name: VES_IO_SITENAME # Valid env VES_IO_COUNTRY, VES_IO_REGION
-          value: "via-nginx-ingress-vault"
+          value: "Nginx-Web-Server"
         ports:
         - containerPort: 8080
         - containerPort: 8443
